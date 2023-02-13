@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+    Alert,
     AppBar,
     Avatar,
     Box,
@@ -111,9 +112,10 @@ function App() {
                             сложно догадаться, сюжет игры будет связан именно с ним. Всех карт раскрывать не будем, наша
                             игра об этом расскажет!
                         </Typography>
-                        <a href="/" target="_blank">
-                            <img src="rustore.svg" alt="RuStore"/>
-                        </a>
+                        <Alert severity="info" variant="outlined">В разработке</Alert>
+                        {/*<a href="/" target="_blank">*/}
+                        {/*    <img src="rustore.svg" alt="RuStore"/>*/}
+                        {/*</a>*/}
                     </Grid>
                 </Grid>
                 <Divider sx={{my: 4}}/>
