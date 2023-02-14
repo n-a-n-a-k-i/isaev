@@ -94,16 +94,27 @@ function App() {
             <Container sx={{pt: 4}}>
                 <Grid container spacing={4}>
                     <Grid item xs={12} sm={6}>
-                        <Box
-                            sx={{
-                                height: 320,
-                                backgroundImage: 'url(ikenorris.jpg)',
-                                backgroundSize: 'cover',
-                                backgroundPosition: 'center',
-                                backgroundRepeat: 'no-repeat',
-                                borderRadius: 4
-                            }}
+                        <iframe
+                            width="100%"
+                            height="100%"
+                            // width="560"
+                            // height="315"
+                            src="https://www.youtube.com/embed/6vR1--XnnF8"
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen
                         />
+                        {/*<Box*/}
+                        {/*    sx={{*/}
+                        {/*        height: 320,*/}
+                        {/*        backgroundImage: 'url(ikenorris.jpg)',*/}
+                        {/*        backgroundSize: 'cover',*/}
+                        {/*        backgroundPosition: 'center',*/}
+                        {/*        backgroundRepeat: 'no-repeat',*/}
+                        {/*        borderRadius: 4*/}
+                        {/*    }}*/}
+                        {/*/>*/}
                     </Grid>
                     <Grid item xs={12} sm={6}>
                         <Typography variant="h2" gutterBottom>Ike Norris</Typography>
