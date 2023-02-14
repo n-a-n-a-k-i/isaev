@@ -126,6 +126,7 @@ function App() {
                             <CardHeader
                                 avatar={<Avatar sx={{bgcolor: blue[500]}}><TelegramIcon/></Avatar>}
                                 title="Telegram"
+                                subheader="@isaev_inc"
                             />
                             <CardContent>
                                 <Typography>
@@ -151,6 +152,7 @@ function App() {
                             <CardHeader
                                 avatar={<Avatar sx={{bgcolor: lightBlue[500]}}><FontAwesomeIcon icon={faVk}/></Avatar>}
                                 title="VK"
+                                subheader="@isaev_inc"
                             />
                             <CardContent>
                                 <Typography>
@@ -175,10 +177,11 @@ function App() {
                             <CardHeader
                                 avatar={<Avatar sx={{bgcolor: red[500]}}><YouTubeIcon/></Avatar>}
                                 title="YouTube"
+                                subheader="@isaev_inc"
                             />
                             <CardContent>
                                 <Typography>
-                                    Видео про наши игры, дневники разработки, трейлеры и многое другое!
+                                    Видео, связанные с нашими проектами, дневники разработки, трейлеры и многое другое!
                                 </Typography>
                             </CardContent>
                             <CardActions disableSpacing>
@@ -207,8 +210,8 @@ function App() {
                             />
                             <CardContent>
                                 <Typography>
-                                    Меня зовут Сергей, в играх можно встретить под никнеймом Nanaki. В реальном мире я
-                                    разработчик, увлекаюсь умным домом и всем, что с этим связано.
+                                    Добро, меня зовут Сергей! В играх можно встретить под никнеймом Nanaki. В реальном
+                                    мире я разработчик, увлекаюсь умным домом и всем, что с этим связано.
                                 </Typography>
                             </CardContent>
                             <CardActions disableSpacing>
@@ -270,8 +273,8 @@ function App() {
                             />
                             <CardContent>
                                 <Typography>
-                                    Меня зовут Маргарита, в играх можно встретить под никнеймом Elguraya. В реальном
-                                    мире я разработчик, люблю рисовать в диджитал и традишке, особенно маслом.
+                                    Привет всем, я Маргарита! В играх и соцсетях меня можно найти по никнейму Elguraya.
+                                    Я разработчик, люблю рисовать в диджитал и традишке, особенно маслом.
                                 </Typography>
                             </CardContent>
                             <CardActions disableSpacing>
