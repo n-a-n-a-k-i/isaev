@@ -123,14 +123,14 @@ function App() {
                             сложно догадаться, сюжет игры будет связан именно с ним. Всех карт раскрывать не будем, наша
                             игра об этом расскажет!
                         </Typography>
-                        <Alert severity="info" variant="outlined">В разработке</Alert>
-                        {/*<a href="/" target="_blank">*/}
-                        {/*    <img src="rustore.svg" alt="RuStore"/>*/}
-                        {/*</a>*/}
+                        {/*<Alert severity="info" variant="outlined">В разработке</Alert>*/}
+                        <a href="https://apps.rustore.ru/app/com.isaev.ikenorris" target="_blank">
+                            <img src="rustore.svg" alt="RuStore"/>
+                        </a>
                     </Grid>
                 </Grid>
                 <Divider sx={{my: 4}}/>
-                <Typography variant="h2" align="center" gutterBottom>Сети</Typography>
+                <Typography variant="h2" align="center" gutterBottom>Соцсети</Typography>
                 <Grid container spacing={4}>
                     <Grid item xs={12} sm={4}>
                         <Card>
