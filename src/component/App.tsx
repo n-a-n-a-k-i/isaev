@@ -1,9 +1,7 @@
 import React from 'react';
 import {
-    Alert,
     AppBar,
     Avatar,
-    Box,
     Button,
     Card,
     CardActions,
@@ -24,6 +22,7 @@ import {faTiktok} from '@fortawesome/free-brands-svg-icons'
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import {blue, lightBlue, pink, red} from "@mui/material/colors";
+import RuStoreIcon from "../util/RuStoreIcon";
 
 function App() {
     return (
@@ -97,36 +96,45 @@ function App() {
                         <iframe
                             width="100%"
                             height="100%"
-                            // width="560"
-                            // height="315"
                             src="https://www.youtube.com/embed/6vR1--XnnF8"
                             title="YouTube video player"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowFullScreen
                         />
-                        {/*<Box*/}
-                        {/*    sx={{*/}
-                        {/*        height: 320,*/}
-                        {/*        backgroundImage: 'url(ikenorris.jpg)',*/}
-                        {/*        backgroundSize: 'cover',*/}
-                        {/*        backgroundPosition: 'center',*/}
-                        {/*        backgroundRepeat: 'no-repeat',*/}
-                        {/*        borderRadius: 4*/}
-                        {/*    }}*/}
-                        {/*/>*/}
                     </Grid>
                     <Grid item xs={12} sm={6}>
-                        <Typography variant="h2" gutterBottom>Ike Norris</Typography>
+                        <Typography variant="h2" mb={4}>Ike Norris</Typography>
                         <Typography mb={4}>
                             Кто же это такой? Хороший мальчик и очень дружелюбный пёс, а также член нашей семьи! Как не
                             сложно догадаться, сюжет игры будет связан именно с ним. Всех карт раскрывать не будем, наша
                             игра об этом расскажет!
                         </Typography>
-                        {/*<Alert severity="info" variant="outlined">В разработке</Alert>*/}
-                        <a href="https://apps.rustore.ru/app/com.isaev.ikenorris" target="_blank">
-                            <img src="rustore.svg" alt="RuStore"/>
-                        </a>
+                        <Button
+                            variant="outlined"
+                            startIcon={<RuStoreIcon/>}
+                            href="https://apps.rustore.ru/app/com.isaev.ikenorris"
+                            target="_blank"
+                            sx={{mr: 1}}
+                        >
+                            RuStore
+                        </Button>
+                        {/*<Button*/}
+                        {/*    variant="outlined"*/}
+                        {/*    startIcon={<VKPlayIcon/>}*/}
+                        {/*    href="https://vkplay.ru/play/game/ike_norris"*/}
+                        {/*    target="_blank"*/}
+                        {/*    sx={{mr: 1}}*/}
+                        {/*>*/}
+                        {/*    VK Play*/}
+                        {/*</Button>*/}
+                        <Button
+                            color="secondary"
+                            href="https://onerpm.link/684066956001"
+                            target="_blank"
+                        >
+                            Музыка
+                        </Button>
                     </Grid>
                 </Grid>
                 <Divider sx={{my: 4}}/>
