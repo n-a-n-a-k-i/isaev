@@ -23,6 +23,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import {blue, lightBlue, pink, red} from "@mui/material/colors";
 import RuStoreIcon from "../util/RuStoreIcon";
+import VKPlayIcon from "../util/VKPlayIcon";
 
 function App() {
     return (
@@ -119,21 +120,21 @@ function App() {
                         >
                             RuStore
                         </Button>
-                        {/*<Button*/}
-                        {/*    variant="outlined"*/}
-                        {/*    startIcon={<VKPlayIcon/>}*/}
-                        {/*    href="https://vkplay.ru/play/game/ike_norris"*/}
-                        {/*    target="_blank"*/}
-                        {/*    sx={{mr: 1}}*/}
-                        {/*>*/}
-                        {/*    VK Play*/}
-                        {/*</Button>*/}
+                        <Button
+                            variant="outlined"
+                            startIcon={<VKPlayIcon/>}
+                            href="https://vkplay.ru/play/game/ike_norris"
+                            target="_blank"
+                            sx={{mr: 1}}
+                        >
+                            VK Play
+                        </Button>
                         <Button
                             color="secondary"
                             href="https://onerpm.link/684066956001"
                             target="_blank"
                         >
-                            Музыка
+                            Саундтрек
                         </Button>
                     </Grid>
                 </Grid>
